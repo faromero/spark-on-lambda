@@ -89,6 +89,10 @@ def handler(event, context):
     call(['df', '-h'])
     print('FINISH: Downloading spark tarball')
 
+    hn = socket.gethostname()
+    with open('/tmp/HOSTALIASES', 'w') as fd:
+        fd.write(hn + ' localhost\n')
+
     print('START: executor')
     run_executor(spark_driver_hostname, spark_driver_port, spark_executor_cmdline,
         java_partial_cmdline, executor_partial_cmdline, java_extra_options)
