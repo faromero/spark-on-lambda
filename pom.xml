@@ -241,6 +241,11 @@
       <name>Qubole Repository</name>
       <url>https://s3.amazonaws.com/public-qubole/maven/release</url>
     </repository>
+    <repository>
+      <id>twitter</id>
+      <name>Twitter Repository</name>
+      <url>http://maven.twttr.com</url>
+    </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
