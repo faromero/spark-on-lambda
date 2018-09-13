@@ -57,5 +57,12 @@ def main(args):
     print("Run Fast took %.2fs on average +- %.2fs for %d" % 
         (np.mean(np_run_fast_list), np.std(np_run_fast_list), np_run_fast_list.size))
 
+  # Get total runtime average
+  if len(run_fast_list) != 0 and len(run_norm_list) != 0:
+    np_combined = np.concatenate((np_run_norm_list, np_run_fast_list), axis=0)
+    print("Combined Run took %.2fs on average +- %.2fs for %d" % 
+        (np.mean(np_combined), np.std(np_combined), np_combined.size))
+
+
 if __name__ == '__main__':
   main(get_args())
