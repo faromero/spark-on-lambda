@@ -19,7 +19,7 @@ To compile, use the following command:
 ```
 Due to aws-java-sdk-1.7.4.jar which is used by hadoop-aws.jar and aws-java-sdk-core-1.1.0.jar having compatibility issues, as of now we have to compile using Qubole shaded hadoop-aws-2.6.0-qds-0.4.13.jar.
 
-Spark on Lambda package for driver can be found [here](s3://public-qubole/lambda/spark-2.1.0-bin-spark-lambda-2.1.0.tgz) - This can be downloaded to an EC2 instance where the driver can be launched.
+Spark on Lambda package for driver can be found at s3://public-qubole/lambda/spark-2.1.0-bin-spark-lambda-2.1.0.tgz - This can be downloaded to an EC2 instance where the driver can be launched.
 
 ## Lambda Package for Executors
 Run the following command from the Spark on Lambda home directory to create the package for Lambda executors to download. It will create directory `lambda/` inside of your bucket and place the package in there.
