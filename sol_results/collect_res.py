@@ -43,25 +43,30 @@ def main(args):
     np_unzip_list = np.asarray(unzip_list)
     np_run_norm_list = np.asarray(run_norm_list)
   
-    print("Download took %.2fs on average +- %.2fs for %d" % 
-        (np.mean(np_download_list), np.std(np_download_list), np_download_list.size))
-    print("Unzip took %.2fs on average +- %.2fs for %d" % 
-        (np.mean(np_unzip_list), np.std(np_unzip_list), np_unzip_list.size))
-    print("Run Normal took %.2fs on average +- %.2fs for %d" % 
-        (np.mean(np_run_norm_list), np.std(np_run_norm_list), np_run_norm_list.size))
+    print("Download took %.2fs on average +- %.2fs (%.2fs median) for %d" % 
+        (np.mean(np_download_list), np.std(np_download_list), 
+         np.median(np_download_list), np_download_list.size))
+    print("Unzip took %.2fs on average +- %.2fs (%.2fs median) for %d" % 
+        (np.mean(np_unzip_list), np.std(np_unzip_list),
+         np.median(np_unzip_list), np_unzip_list.size))
+    print("Run Normal took %.2fs on average +- %.2fs (%.2fs median) for %d" % 
+        (np.mean(np_run_norm_list), np.std(np_run_norm_list),
+         np.median(np_run_norm_list), np_run_norm_list.size))
 
   if len(run_fast_list) != 0:
     # Convert to numpy array
     np_run_fast_list = np.asarray(run_fast_list)
 
-    print("Run Fast took %.2fs on average +- %.2fs for %d" % 
-        (np.mean(np_run_fast_list), np.std(np_run_fast_list), np_run_fast_list.size))
+    print("Run Fast took %.2fs on average +- %.2fs (%.2fs median) for %d" % 
+        (np.mean(np_run_fast_list), np.std(np_run_fast_list),
+         np.median(np_run_fast_list), np_run_fast_list.size))
 
   # Get total runtime average
   if len(run_fast_list) != 0 and len(run_norm_list) != 0:
     np_combined = np.concatenate((np_run_norm_list, np_run_fast_list), axis=0)
-    print("Combined Run took %.2fs on average +- %.2fs for %d" % 
-        (np.mean(np_combined), np.std(np_combined), np_combined.size))
+    print("Combined Run took %.2fs on average +- %.2fs (%.2fs median) for %d" % 
+        (np.mean(np_combined), np.std(np_combined),
+         np.median(np_combined), np_combined.size))
 
 
 if __name__ == '__main__':
