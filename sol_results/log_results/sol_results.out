@@ -1,0 +1,100 @@
+Run 1
+Time: 0:43.84
+Download: Download took 2.22s on average +- 0.32s (2.03s median)
+Unzip: Unzip took 2.39s on average +- 0.16s (2.46s median)
+E2E: Combined Run took 38.84s on average +- 2.82s (39.20s median)
+Run 2
+Time: 0:46.43
+Download: Download took 2.57s on average +- 0.71s (2.10s median)
+Unzip: Unzip took 3.58s on average +- 1.87s (2.54s median)
+E2E: Combined Run took 41.54s on average +- 1.88s (41.57s median)
+Run 3
+Time: 0:38.81
+Download: Download took 2.24s on average +- 0.33s (2.04s median)
+Unzip: Unzip took 2.43s on average +- 0.20s (2.48s median)
+E2E: Combined Run took 34.03s on average +- 2.04s (34.22s median)
+Run 4
+Time: 1:43.85
+Download: Download took 15.91s on average +- 2.50s (16.62s median)
+Unzip: Unzip took 2.60s on average +- 0.95s (2.39s median)
+E2E: Combined Run took 92.92s on average +- 12.58s (99.13s median)
+Run 5
+Time: 0:52.57
+Download: Download took 2.91s on average +- 1.73s (2.00s median)
+Unzip: Unzip took 2.40s on average +- 0.17s (2.47s median)
+E2E: Combined Run took 47.61s on average +- 1.96s (47.77s median)
+Run 6
+Time: 1:16.81
+Download: Download took 4.01s on average +- 1.34s (4.26s median)
+Unzip: Unzip took 3.87s on average +- 1.72s (2.70s median)
+E2E: Combined Run took 70.78s on average +- 5.38s (72.07s median)
+Run 7
+Time: 1:27.07
+Download: Download took 2.44s on average +- 0.43s (2.30s median)
+Unzip: Unzip took 3.00s on average +- 1.59s (2.50s median)
+E2E: Combined Run took 81.71s on average +- 3.71s (82.26s median)
+Run 8
+Time: 0:25.56
+Download: Download took 2.42s on average +- 0.53s (2.04s median)
+Unzip: Unzip took 2.76s on average +- 1.09s (2.48s median)
+E2E: Combined Run took 20.57s on average +- 1.87s (20.70s median)
+Run 9
+Time: 1:17.17
+Download: Download took 38.00s on average +- 5.28s (38.01s median)
+Unzip: Unzip took 2.93s on average +- 1.17s (2.39s median)
+E2E: Combined Run took 55.00s on average +- 21.14s (71.33s median)
+Run 10
+Time: 1:01.97
+Download: Download took 2.35s on average +- 0.43s (2.19s median)
+Unzip: Unzip took 2.78s on average +- 1.37s (2.47s median)
+E2E: Combined Run took 57.15s on average +- 1.33s (57.17s median)
+Run 11
+Time: 0:44.81
+Download: Download took 2.27s on average +- 0.35s (2.01s median)
+Unzip: Unzip took 2.36s on average +- 0.18s (2.48s median)
+E2E: Combined Run took 39.91s on average +- 1.21s (39.92s median)
+Run 12
+Time: 0:54.71
+Download: Download took 2.28s on average +- 0.35s (2.05s median)
+Unzip: Unzip took 2.49s on average +- 0.22s (2.52s median)
+E2E: Combined Run took 49.85s on average +- 1.22s (49.84s median)
+Run 13
+Time: 0:24.72
+Download: Download took 2.49s on average +- 0.52s (2.19s median)
+Unzip: Unzip took 2.59s on average +- 0.86s (2.47s median)
+E2E: Combined Run took 19.92s on average +- 1.39s (20.06s median)
+Run 14
+Time: 1:04.99
+Download: Download took 2.20s on average +- 0.45s (2.04s median)
+Unzip: Unzip took 2.48s on average +- 0.06s (2.48s median)
+E2E: Combined Run took 60.01s on average +- 1.23s (60.02s median)
+Run 15
+Time: 0:27.33
+Download: Download took 2.31s on average +- 0.31s (2.34s median)
+Unzip: Unzip took 2.43s on average +- 0.10s (2.45s median)
+E2E: Combined Run took 22.44s on average +- 1.34s (22.38s median)
+Run 16
+Time: 1:04.30
+Download: Download took 2.33s on average +- 0.00s (2.33s median)
+Unzip: Unzip took 2.47s on average +- 0.00s (2.47s median)
+E2E: Combined Run took 59.45s on average +- 1.26s (59.43s median)
+Run 17
+Time: 0:58.08
+Download: Download took 2.42s on average +- 0.34s (2.36s median)
+Unzip: Unzip took 2.35s on average +- 0.18s (2.39s median)
+E2E: Combined Run took 53.38s on average +- 1.21s (53.44s median)
+Run 18
+Time: 0:35.03
+Download: Download took 2.07s on average +- 0.06s (2.07s median)
+Unzip: Unzip took 2.46s on average +- 0.02s (2.46s median)
+E2E: Combined Run took 30.35s on average +- 1.27s (30.36s median)
+Run 19
+Time: 0:44.26
+Download: Download took 2.20s on average +- 0.20s (2.20s median)
+Unzip: Unzip took 4.91s on average +- 2.35s (4.91s median)
+E2E: Combined Run took 39.56s on average +- 1.40s (39.61s median)
+Run 20
+Time: 1:14.41
+Download: Download took 2.80s on average +- 0.00s (2.80s median)
+Unzip: Unzip took 2.05s on average +- 0.00s (2.05s median)
+E2E: Combined Run took 69.77s on average +- 1.10s (69.73s median)
