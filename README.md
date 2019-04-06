@@ -32,7 +32,7 @@ bash -x bin/lambda/spark-lambda 149 spark-2.1.0-bin-spark-lambda-2.1.0.tgz s3://
 ```
 
 ## Setting up the Lambda Function
-Create the Lambda function with the name `spark-lambda` from the AWS console using the code in `bin/lambda/spark-lambda-os.py`. Note that this code slighly differs from the original project. The Lambda should be in the same VPC as the EC2 instance, and should use the NAT subnets you previously created. The security group should also match that of the EC2 instance. Finally, the Lambda's role should have permissions for S3, VPC, ENI, and Lambda Execution. You also need to add the following environment variable: `HOSTALIASES=/tmp/HOSTALIASES`
+Create the Lambda function with the name `spark-lambda` from the AWS console using the code in `bin/lambda/spark-lambda-os.py`. Note that this code slighly differs from the original project. The function should have at least 1024MB of memory, and a timeout of at least 5 minutes (the master will shut down worker Lambdas after the job's completion). The Lambda should be in the same VPC as the EC2 instance, and should use the NAT subnets you previously created. The security group should also match that of the EC2 instance. Finally, the Lambda's role should have permissions for S3, VPC, ENI, and Lambda Execution. You also need to add the following environment variable: `HOSTALIASES=/tmp/HOSTALIASES`
 
 
 Also if you want to copy the packages to your bucket, use:
